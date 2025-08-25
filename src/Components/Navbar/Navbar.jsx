@@ -24,6 +24,11 @@ const Navbar = () => {
             Experience
           </li>
         </a>
+        <a href="#Education">
+          <li className="text-md transition-all duration-300 p-1 md:p-0">
+            Education
+          </li>
+        </a>
         <a href="#Projects">
           <li className="text-md transition-all duration-300 p-1 md:p-0">
             Projects
