@@ -41,13 +41,13 @@ const Experience = () => {
       icon: <FaReact color="#61dafb" size={50} />,
     },
     {
-      role: "Backend Developer, DevStudio",
+      role: "Backend Developer, DemoCorp",
       period: "Mar 2024 - Dec 2024",
       tasks: ["Created APIs", "Managed mock DB", "Implemented auth"],
       icon: <FaNodeJs color="#649A5F" size={50} />,
     },
     {
-      role: "Full Stack Developer, CodeLab",
+      role: "Full Stack Developer, DemoCorp",
       period: "Jun 2023 - Feb 2024",
       tasks: [
         "Integrated frontend & backend",

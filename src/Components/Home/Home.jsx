@@ -7,7 +7,7 @@ const Home = () => {
       <div className="md:w-2/4 md:pt-10">
         <h1 className="flex flex-col gap-2 text-3xl md:text-6xl font-bold tracking-tight">
           Hi, I'm Sabbir
-          <span className="text-4xl">MERN Stack Developer</span>
+          <span className="text-xl md:text-3xl">MERN Stack Developer</span>
         </h1>
 
         <p className="text-sm md:text-xl leading-tight tracking-tighter my-5">
