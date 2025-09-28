@@ -4,7 +4,7 @@ const ProjectCard = ({ image, title, main,link }) => {
   return (
     <div className="p-3 sm:p-6 flex flex-col gap-4 sm:w-80 bg-[#0c0e19] shadow-xl shadow-slate-900 rounded-2xl">
       <img
-        className="rounded-2xl h-[50%] sm:h-full object-cover"
+        className="rounded-2xl h-[50%] sm:h-full object-cover transform transition-transform duration-300 hover:scale-105 cursor-pointer"
         src={image}
         alt=""
       />

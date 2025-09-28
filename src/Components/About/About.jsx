@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div
       id="#About"
-      className=" text-white md:flex md:flex-wrap md:justify-center bg-black/30 shadow-xl mx-0 md:mx-20 rounded-lg p-12"
+      className=" text-white md:flex md:flex-wrap md:justify-center bg-black/30 shadow-xl mx-0 md:mx-10 rounded-lg p-12"
     >
       <div>
         <h2 className="text-2xl md:text-4xl font-bold">About</h2>

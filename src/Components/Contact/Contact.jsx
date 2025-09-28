@@ -16,7 +16,7 @@ const Contact = () => {
       </div>
       <ul className="text-sm md:text-xl">
         <li className="flex items-center gap-2 cursor-pointer my-1.5">
-          <MdOutlineEmail size={20} />
+          <MdOutlineEmail />
           <a href="mailto:sabbir00921@gmail.com" className="hover:underline">
             sabbir00921@gmail.com
           </a>
