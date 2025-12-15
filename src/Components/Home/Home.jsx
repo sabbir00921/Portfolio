@@ -1,6 +1,6 @@
 import React from "react";
 import avatar from "../../assets/homeimg.png";
-import resume from "../../assets/resume/Resume.Sabbir_MERN_dev.pdf";
+import resume from "../../assets/resume/Sabbir-dev-resume.pdf";
 import Typewriter from "typewriter-effect";
 const Home = () => {
   return (

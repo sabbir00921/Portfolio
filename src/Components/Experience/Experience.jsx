@@ -12,7 +12,17 @@ import {
 import { PiGithubLogoFill } from "react-icons/pi";
 import { IoLogoFirebase } from "react-icons/io5";
 import { RiTailwindCssFill } from "react-icons/ri";
-import { SiMongodb } from "react-icons/si";
+import {
+  SiAxios,
+  SiExpress,
+  SiMongodb,
+  SiMongoose,
+  SiPostman,
+  SiRender,
+  SiSocketdotio,
+  SiTypescript,
+  SiVercel,
+} from "react-icons/si";
 
 const Experience = () => {
   const tools = [
@@ -22,11 +32,19 @@ const Experience = () => {
     { icon: <FaReact color="#61dafb" size={50} />, name: "React.js" },
     { icon: <FaFigma color="#F24E1E" size={50} />, name: "Figma" },
     { icon: <FaJs color="#F7DF1E" size={50} />, name: "JavaScript" },
+    { icon: <SiTypescript color="#3178C6" size={46} />, name: "TypeScript" },
     { icon: <FaNodeJs color="#649A5F" size={50} />, name: "Node.js" },
+    { icon: <SiExpress color="#FFFFFF" size={50} />, name: "Express.js" },
     { icon: <IoLogoFirebase color="#FFC400" size={50} />, name: "Firebase" },
     { icon: <SiMongodb color="#47A248" size={50} />, name: "MongoDB" },
     { icon: <DiGit color="#FF4438" size={50} />, name: "Git" },
     { icon: <PiGithubLogoFill color="#FFFFFF" size={50} />, name: "GitHub" },
+    { icon: <SiPostman color="#FF6C37" size={50} />, name: "Postman" },
+    { icon: <SiSocketdotio color="#FFFFFF" size={50} />, name: "Socket.io" },
+    { icon: <SiAxios color="#5A29E4" size={50} />, name: "Axios" },
+    { icon: <SiVercel color="#FFFFFF" size={50} />, name: "Vercel" },
+    { icon: <SiRender color="#46E3B7" size={50} />, name: "Render" },
+    { icon: <SiMongoose color="#880000" size={50} />, name: "Mongoose" },
   ];
 
   const companies = [
